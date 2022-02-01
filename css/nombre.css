@@ -6,8 +6,10 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
 
 }
-#containert {
-    padding: 20;
-    border-radius: 10%;
-    margin: 0, auto;
+.burbuja {
+    padding: 10px;
+    border-style: groove;
+    border-width: 10px;
+    border-radius: 10px;
+    margin: 0px, auto;
 }
