@@ -14,12 +14,37 @@ body{
     border-radius: 10px;
     margin: 0px, auto;
 }
-.head {
-    background-color: bisque;
+#head {
     color: gray;
     text-align: center;
+    background-color: #FEFDF9;
 }
 
-#htxt {
-    color: gray;
+#himg {
+    height: 450px;
+    width: 750px;
+}
+
+.hp {
+    font-size: 190%;
+}
+
+.hbut {
+    background-color: black;
+    border-style: initial;
+    height: 60px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#hbuta {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: gray;
 }
