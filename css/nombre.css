@@ -45,6 +45,6 @@ body{
     font-weight: bold;
 }
 
-#hbut:hover{
+button:hover{
     background-color: gray;
 }
