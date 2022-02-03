@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Rubik:ital,wght@0,300;0,500;0,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
 body{
-
     font-family: 'Open Sans Condensed', sans-serif;
-
 }
+
 .burbuja {
     text-align: center;
     color: purple;
@@ -47,4 +47,42 @@ body{
 
 button:hover{
     background-color: gray;
+}
+
+.footer {
+    font-family: 'Supermercado One', cursive;
+    background-color: rgb(0, 0, 0); 
+    text-align: center;
+    width: 300px;
+    height: 210px;
+    padding: 5px;
+    padding-bottom: 8px;
+    margin: 10px;
+    border: 2px solid;
+    position: absolute;
+    right: 1px;
+    top: auto;
+    
+}
+
+#ftxt {
+    font-size: 20px;
+    color: lightgray;
+}
+
+#fbut {
+    background-color: rgba(0, 0, 0, 0.678);
+    border-style: solid;
+    border-color: rgba(21, 27, 114, 0.719);
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    color: lavender;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#fbut:hover{
+    background-color: rgba(183, 0, 255, 0.377);
 }
